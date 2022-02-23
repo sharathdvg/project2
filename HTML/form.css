@@ -1,16 +1,153 @@
 .container {
     display: flex;
-    
+    /* text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 
-  }
-  .item {
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+.FirstName{
+    position: static;
+width: 272px;
+height: 40px;
+left: 0px;
+top: 32px;
+    background: #EDF2F7;
+
+    flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.LastName{
+    position: static;
+width: 272px;
+height: 40px;
+left: 0px;
+top: 32px;
+    background: #EDF2F7;
+
+    flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.city{
+    
+    position: static;
+width: 272px;
+height: 40px;
+left: 0px;
+top: 32px;
+    background: #EDF2F7;
+
+    flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.country{
+    margin-right: 150px;
+    position: static;
+width: 272px;
+height: 40px;
+left: 0px;
+top: 32px;
+    background: #EDF2F7;
+
+    flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+  
+  .item1 {
       padding: 10px 10px 20px 30px;
-    background: #f0b8b8;
+    background: white;
     flex-basis: 100vh;
     height: 80vh;
-    
-    margin: 10px;
+     margin: 10px;
   }
+  .item2 {
+    padding: 10px 10px 20px 30px;
+  background-color: #F7FAFC;
+  flex-basis: 100vh;
+  height: 80vh;
+   margin: 10px;
+}
   .firstlabel{
-      margin-right: 110px;
+      margin-right: 210px;
+  }
+  .Address{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+width: 556px;
+height: 72px;
+left: 2px;
+top: 98px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+background: #EDF2F7;
+  }
+  .city1{
+      margin-right: 260px;
+  }
+
+  
+
+  .checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+width: 556px;
+height: 24px;
+left: 2px;
+top: 290px;
+
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+  }
+  
+  .orderbutton{
+      background-color: #8AC919;
+     color: white;
+     display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+position: static;
+width: 556px;
+height: 48px;
+left: 2px;
+top: 338px;
+
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
   }

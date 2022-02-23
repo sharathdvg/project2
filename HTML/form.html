@@ -4,22 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="form.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
-        <div class="item">
+        <div class="item1">
             <h1>Your Details</h1>
             <h5>if you have an account,click here to login</h5>
             <form action="text">
+                <div class="field">
                 <span class="firstlabel">First Name</span>
-                <span class="LastName">Last Name</span><br>
-                <input type="text" name="First Name" placeholder="FirstName"/>
-                <input type="text" name="Last Name" placeholder="LastName"/>
+                <span class="Lastlabel">Last Name</span><br>
+                <input class="FirstName" type="text" name="First Name" placeholder="FirstName" />
+                <input class="LastName" type="text" name="Last Name" placeholder="LastName"/>
+                </div>
+                
+                <div class="Adress">
+                <label for="Address">Address</label><br>
+                <input type="text" name="Address" class="Address" placeholder="Address">
+               </div><br><br>
+
+               <div >
+                <span class="city1">city</span>
+                <span class="country">country</span><br>
+                <input class="city" type="text" name="city" placeholder="city" />
+                <input class="country" type="countryt" name="country" placeholder="country"/>
+                </div>
+
+               <div class="checkbox">
+               <input type="checkbox">
+               <label for="text">Ship to the billing address </label>
+               </div>
+
+               <div class="container1" >
+                   <button class="orderbutton" type="submit">Place Order</button>
+               </div>
+            
             </form>
         </div>
-        <div class="item">
+        <div class="item2">
             <h1>Your Cart</h1>
         </div>
       </div>
