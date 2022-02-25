@@ -1,13 +1,29 @@
 .container {
     display: flex;
-    /* text-align: justify;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-
-    font-family: Inter;
+    font-family: 'Times New Roman', Times, serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
+
+}
+.item1 {
+    padding: 50px 10px 10px 100px;
+  background: white;
+  flex-basis: 100vh;
+  height: 80vh;
+   margin: 10px;
+   width: 50%;
+   justify-content:right;
+   
+}
+.item2 {
+  padding: 50px 10px 10px 100px;
+background-color: #F7FAFC;
+flex-basis: 100vh;
+height: 80vh;
+ margin: 10px;
+ width: 50%;
 }
 .FirstName{
     position: static;
@@ -15,8 +31,10 @@ width: 272px;
 height: 40px;
 left: 0px;
 top: 32px;
+border: solid;
+border-color: #EDF2F7;
     background: #EDF2F7;
-
+  
     flex: none;
 order: 1;
 align-self: stretch;
@@ -30,6 +48,8 @@ width: 272px;
 height: 40px;
 left: 0px;
 top: 32px;
+border: solid;
+border-color: #EDF2F7;
     background: #EDF2F7;
 
     flex: none;
@@ -46,6 +66,8 @@ width: 272px;
 height: 40px;
 left: 0px;
 top: 32px;
+border: solid;
+border-color: #EDF2F7;
     background: #EDF2F7;
 
     flex: none;
@@ -62,6 +84,8 @@ width: 272px;
 height: 40px;
 left: 0px;
 top: 32px;
+border: solid;
+border-color: #EDF2F7;
     background: #EDF2F7;
 
     flex: none;
@@ -72,23 +96,11 @@ margin: 8px 0px;
 }
 
   
-  .item1 {
-      padding: 10px 10px 20px 30px;
-    background: white;
-    flex-basis: 100vh;
-    height: 80vh;
-     margin: 10px;
-  }
-  .item2 {
-    padding: 10px 10px 20px 30px;
-  background-color: #F7FAFC;
-  flex-basis: 100vh;
-  height: 80vh;
-   margin: 10px;
-}
+ 
   .firstlabel{
       margin-right: 210px;
   }
+
   .Address{
     display: flex;
     flex-direction: row;
@@ -96,14 +108,16 @@ margin: 8px 0px;
     padding: 0px;
     position: static;
 width: 556px;
-height: 72px;
+height: 50px;
 left: 2px;
 top: 98px;
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
-margin: 24px 0px;
+margin: 25px 0px;
+border: solid;
+border-color: #EDF2F7;
 background: #EDF2F7;
   }
   .city1{
@@ -112,7 +126,7 @@ background: #EDF2F7;
 
   
 
-  .checkbox{
+  .checkbox1{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -144,10 +158,111 @@ width: 556px;
 height: 48px;
 left: 2px;
 top: 338px;
+/* border: 1px solid#8AC919; */
+border: solid;
+
+border-radius: 5px;
+
+
+
+  }
+  
+
+  
+
+  .peeny{
+    margin-right: 150px;
+  }
+
+  .img{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
 
 flex: none;
-order: 4;
+order: 1;
 align-self: stretch;
 flex-grow: 0;
 margin: 24px 0px;
   }
+
+  img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 50px;
+  }
+
+  .h3{
+    font-size: 20px;
+    font-style: bold;
+  }
+
+
+  .div1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+width: 143px;
+height: 51px;
+left: 127px;
+top: 22.5px;
+
+ }
+
+ .price1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+
+    position: static;
+width: 266px;
+height: 19px;
+left: 294px;
+top: 38.5px;
+    
+flex: none;
+order: 2;
+flex-grow: 1;
+margin: 0px 47px;
+margin-right: 510px;
+ }
+.subtotal{
+  margin-right: 483px;
+}
+
+
+.Shipping{
+  margin-right: 485px;
+}
+ 
+.Taxes{
+  margin-right: 433px;
+}
+
+.border{
+  border-style:groove;
+  width: 585px;
+  border: solid;
+  border-color: #dee2e4;
+  
+}
+
+.total{
+  margin-right: 475px;
+}
+
+
+.myevent{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* input[type="checkbox"]:checked{
+  background-color: #8AC919;
+} */

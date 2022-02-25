@@ -1,52 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <link rel="stylesheet" href="form.css">
-    <title>Document</title>
+    <title>Order Form</title>
 </head>
+
 <body>
     <div class="container">
         <div class="item1">
-            <h1>Your Details</h1>
-            <h5>if you have an account,click here to login</h5>
-            <form action="text">
-                <div class="field">
-                <span class="firstlabel">First Name</span>
-                <span class="Lastlabel">Last Name</span><br>
-                <input class="FirstName" type="text" name="First Name" placeholder="FirstName" />
-                <input class="LastName" type="text" name="Last Name" placeholder="LastName"/>
-                </div>
-                
-                <div class="Adress">
-                <label for="Address">Address</label><br>
-                <input type="text" name="Address" class="Address" placeholder="Address">
-               </div><br><br>
+            <div class="header">
+                <h1>Your Details</h1>
+                <h3>if you have an account,click here to login</h3>
+            </div>
+            <div class="form">
+                <form action="#" class="myevent">
+                    <div class="field">
+                        <span class="firstlabel">First Name</span>
+                        <span class="Lastlabel">Last Name</span><br>
+                        <input class="FirstName" type="text" name="firstname" placeholder="FirstName" />
+                        <input class="LastName" type="text" name="lastname" placeholder="LastName" />
+                    </div><br>
+                    <div class="Adress">
+                        <span class="Address1">Address</span>
+                        <input type="text" name="Address" class="Address" placeholder="Address">
+                    </div>
+                    <div>
+                        <span class="city1">city</span>
+                        <span class="country1">country</span><br>
+                        <input class="city" type="text" name="city" placeholder="city" />
+                        <input class="country" type="countryt" name="country" placeholder="country" />
+                    </div><br>
 
-               <div >
-                <span class="city1">city</span>
-                <span class="country">country</span><br>
-                <input class="city" type="text" name="city" placeholder="city" />
-                <input class="country" type="countryt" name="country" placeholder="country"/>
-                </div>
+                    <div class="checkbox1">
+                        <input type="checkbox" name="checkbox" value="check">
+                        <label for="check">Ship to the billing address</label>
+                    </div>
 
-               <div class="checkbox">
-               <input type="checkbox">
-               <label for="text">Ship to the billing address </label>
-               </div>
+                    <div class="container1">
+                        <button class="orderbutton" type="submit">Place Order</button>
+                    </div>
+                </form>
 
-               <div class="container1" >
-                   <button class="orderbutton" type="submit">Place Order</button>
-               </div>
-            
-            </form>
+            </div>
+
         </div>
+
+
+
         <div class="item2">
-            <h1>Your Cart</h1>
+            <div>
+                <div class="header">
+                    <h1>Your Cart</h1>
+                    <h4>if price is too hard on your eyes,<b>try changing the item.</b></h4>
+                </div>
+            </div>
+            <div class="img">
+                <div class="img1">
+                    <img src="./peeny.jpg">
+                </div>
+
+                <div class="div1">
+                    <span class="h3"><b> penny board</b></span>
+                    <span>PNYCOMP27541</span>
+                </div>
+
+                <div class="price1">
+                    <span> <b> $119.00</b></span>
+
+                </div>
+            </div>
+
+            <div class="totalprice">
+                <span class="subtotal">Subtotal</span>
+                <span><b> $119.00</b></span><br>
+                <span class="Shipping">Shipping</span>
+                <span><b> $19.99</b></span><br>
+                <span class="Taxes">Taxes(estimated)</span>
+                <span><b> $23.80</b></span><br>
+                <u></u><br><br>
+
+                <div class="border"></div><br>
+
+                <span class="total"> Total</span>
+                <span style="font-size:x-large;"><b> $162.79</b></span>
+            </div>
+
         </div>
-      </div>
+
+        <script src="form.js"></script>
 </body>
+
 </html>
